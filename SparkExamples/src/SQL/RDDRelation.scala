@@ -36,8 +36,6 @@ object RDDRelation {
     parquetFile.where($"key" === 1).select($"value".as("a")).collect.foreach(println)
 
     sc.stop()
-
-
   }
 
 }
