@@ -17,33 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GroupByTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SparkExamples/GroupByTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-              <folding>
-                <element signature="e#22#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SimpleSkewedGroupByTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SparkExamples/SimpleSkewedGroupByTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="0">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkPageRank.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SparkExamples/SparkPageRank.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,7 +52,7 @@
       <file leaf-file-name="SparkHiveExample.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SQL/SparkHiveExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="364">
               <caret line="21" column="102" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="102" />
               <folding>
                 <element signature="e#13#32#0" expanded="true" />
@@ -84,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SQLDataSourceExample.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SQLDataSourceExample.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SQL/SQLDataSourceExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="254">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#14#41#0" expanded="true" />
                 <element signature="e#1952#2495#0" expanded="false" />
@@ -100,15 +78,60 @@
       <file leaf-file-name="SparkSQLExample.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SQL/SparkSQLExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="90" column="3" lean-forward="true" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
+            <state relative-caret-position="212">
+              <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
               <folding>
                 <element signature="e#13#58#0" expanded="true" />
+                <element signature="e#263#637#0" expanded="false" />
                 <element signature="e#642#1243#0" expanded="false" />
-                <element signature="e#1247#1807#0" expanded="false" />
-                <element signature="e#1811#2576#0" expanded="false" />
-                <element signature="e#2580#3410#0" expanded="false" />
+                <element signature="e#1761#2529#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDefinedTypedAggregation.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SQL/UserDefinedTypedAggregation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="86" />
+              <folding>
+                <element signature="e#13#60#0" expanded="true" />
+                <element signature="e#451#829#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDefinedUntypedAggregation.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SQL/UserDefinedUntypedAggregation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding>
+                <element signature="e#13#77#0" expanded="true" />
+                <element signature="e#454#2147#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDefinedAggregateFunction.class" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/CSOT/Sprint 3/CSOT_KAFKA_TEST/spark/spark-assembly-1.6.2-hadoop2.6.0.jar!/org/apache/spark/sql/expressions/UserDefinedAggregateFunction.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aggregator.class" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/CSOT/Sprint 3/CSOT_KAFKA_TEST/spark/spark-assembly-1.6.2-hadoop2.6.0.jar!/org/apache/spark/sql/expressions/Aggregator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,8 +167,10 @@
         <option value="$PROJECT_DIR$/src/hive-site.xml" />
         <option value="$PROJECT_DIR$/src/SQL/SparkHiveExample.scala" />
         <option value="$PROJECT_DIR$/src/SQL/RDDRelation.scala" />
-        <option value="$PROJECT_DIR$/src/SQL/SparkSQLExample.scala" />
         <option value="$PROJECT_DIR$/src/SQL/SQLDataSourceExample.scala" />
+        <option value="$PROJECT_DIR$/src/SQL/UserDefinedTypedAggregation.scala" />
+        <option value="$PROJECT_DIR$/src/SQL/SparkSQLExample.scala" />
+        <option value="$PROJECT_DIR$/src/SQL/UserDefinedUntypedAggregation.scala" />
       </list>
     </option>
   </component>
@@ -172,6 +197,8 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,20 +213,12 @@
             </path>
             <path>
               <item name="SparkExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SQLDataSourceExample">
+  <component name="RunManager" selected="Application.UserDefinedUntypedAggregation">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -305,25 +324,6 @@
       <module name="SparkExamples" />
       <envs />
     </configuration>
-    <configuration name="SparkHiveExample" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="SQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="SQL.SparkHiveExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SparkExamples" />
-      <envs />
-    </configuration>
     <configuration name="SparkSQLExample" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -343,14 +343,33 @@
       <module name="SparkExamples" />
       <envs />
     </configuration>
-    <configuration name="SparkTC" type="Application" factoryName="Application" temporary="true">
+    <configuration name="UserDefinedTypedAggregation" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="SparkExamples.*" />
+          <option name="PATTERN" value="SQL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="SparkExamples.SparkTC" />
+      <option name="MAIN_CLASS_NAME" value="SQL.UserDefinedTypedAggregation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SparkExamples" />
+      <envs />
+    </configuration>
+    <configuration name="UserDefinedUntypedAggregation" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SQL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SQL.UserDefinedUntypedAggregation" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -439,19 +458,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.DFSReadWriteTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.HdfsTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SparkTC" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SparkHiveExample" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RDDRelation" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SQLDataSourceExample" />
-      <item index="6" class="java.lang.String" itemvalue="Application.SparkSQLExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RDDRelation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SQLDataSourceExample" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SparkSQLExample" />
+      <item index="5" class="java.lang.String" itemvalue="Application.UserDefinedTypedAggregation" />
+      <item index="6" class="java.lang.String" itemvalue="Application.UserDefinedUntypedAggregation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SQLDataSourceExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SparkSQLExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RDDRelation" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SparkHiveExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SparkTC" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UserDefinedUntypedAggregation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UserDefinedTypedAggregation" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SparkSQLExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SQLDataSourceExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RDDRelation" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +497,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1372" height="732" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -493,7 +511,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25567323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25567323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -513,7 +531,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -522,7 +542,7 @@
         <state relative-caret-position="792">
           <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
-            <element signature="e#22#45#0" expanded="true" />
+            <element signature="e#22#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,7 +597,7 @@
         <state relative-caret-position="748">
           <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
-            <element signature="e#22#45#0" expanded="true" />
+            <element signature="e#22#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3344">
           <caret line="152" column="12" lean-forward="true" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +673,7 @@
         <state relative-caret-position="792">
           <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
-            <element signature="e#22#45#0" expanded="true" />
+            <element signature="e#22#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -770,10 +788,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkExamples/GroupByTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="748">
           <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
-            <element signature="e#22#45#0" expanded="true" />
+            <element signature="e#22#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +860,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SparkExamples/SimpleSkewedGroupByTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="0">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="49" />
           <folding />
         </state>
@@ -855,9 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="e#13#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,13 +877,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/CSOT/Sprint 3/CSOT_KAFKA_TEST/spark/spark-assembly-1.6.2-hadoop2.6.0.jar!/org/apache/spark/sql/DatasetHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/CSOT/Sprint 3/CSOT_KAFKA_TEST/spark/spark-assembly-1.6.2-hadoop2.6.0.jar!/org/apache/spark/sql/TypedColumn.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/CSOT/Sprint 3/CSOT_KAFKA_TEST/spark/spark-assembly-1.6.2-hadoop2.6.0.jar!/org/apache/spark/sql/expressions/Aggregator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SQL/SparkHiveExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="364">
           <caret line="21" column="102" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="102" />
           <folding>
             <element signature="e#13#32#0" expanded="true" />
@@ -880,35 +914,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/CSOT/Sprint 3/CSOT_KAFKA_TEST/spark/spark-assembly-1.6.2-hadoop2.6.0.jar!/org/apache/spark/sql/DatasetHolder.class">
+    <entry file="file://$PROJECT_DIR$/src/SQL/SQLDataSourceExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="254">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
+            <element signature="e#1952#2495#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SQL/SparkSQLExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="90" column="3" lean-forward="true" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
+        <state relative-caret-position="212">
+          <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
           <folding>
             <element signature="e#13#58#0" expanded="true" />
+            <element signature="e#263#637#0" expanded="false" />
             <element signature="e#642#1243#0" expanded="false" />
-            <element signature="e#1247#1807#0" expanded="false" />
-            <element signature="e#1811#2576#0" expanded="false" />
-            <element signature="e#2580#3410#0" expanded="false" />
+            <element signature="e#1761#2529#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SQL/SQLDataSourceExample.scala">
+    <entry file="jar://E:/CSOT/Sprint 3/CSOT_KAFKA_TEST/spark/spark-assembly-1.6.2-hadoop2.6.0.jar!/org/apache/spark/sql/expressions/UserDefinedAggregateFunction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="44">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SQL/UserDefinedTypedAggregation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="86" />
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
-            <element signature="e#1952#2495#0" expanded="false" />
+            <element signature="e#13#60#0" expanded="true" />
+            <element signature="e#451#829#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SQL/UserDefinedUntypedAggregation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#77#0" expanded="true" />
+            <element signature="e#454#2147#0" expanded="false" />
           </folding>
         </state>
       </provider>

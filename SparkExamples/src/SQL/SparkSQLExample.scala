@@ -5,9 +5,9 @@ import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.sql.types._
 import org.apache.spark.{SparkConf, SparkContext}
 
-object SparkSQLExample {
+case class Person(name: String, age: Long)
 
-  case class Person(name: String, age: Long)
+object SparkSQLExample {
 
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("SparkSQLExample").setMaster("local")
@@ -16,9 +16,9 @@ object SparkSQLExample {
     val sqlc = new SQLContext(sc)
 
     //runBasicDataFrameExample(hc)
-    //runDatasetCreationExample(hc)
+    runDatasetCreationExample(sqlc)
     //runInferSchemaExample(sqlc)
-    runProgrammaticSchemaExample(sqlc)
+    //runProgrammaticSchemaExample(sqlc)
 
   }
 
@@ -52,23 +52,23 @@ object SparkSQLExample {
 
   private def runDatasetCreationExample(sQLContext: SQLContext): Unit = {
 
-    //spark1.6 报错
     import sQLContext.implicits._
 
-    //  val caseClassDS = Seq(Person("Andy", 32)).toDS()
-    //  caseClassDS.show()
+    val caseClassDS = Seq(Person("Andy", 32)).toDS()
+    caseClassDS.show()
 
-    //    val primitiveDS = Seq(1, 2, 3).toDS()
-    //    primitiveDS.map(_ + 1).collect()
+    val primitiveDS = Seq(1, 2, 3).toDS()
+    primitiveDS.map(_ + 1).collect()
 
-    // DataFrames can be converted to a Dataset by providing a class. Mapping will be done by name
-    //    val path = "file:///E:/github/SparkExamples/resources/people.json"
-    //    val ds = sQLContext.read.json(path).as[Person]
-    //    ds.show()
+    // DataFrames can be converted to a Dataset by providing a
+    // class.Mapping will be done by name
+    val path = "file:///E:/github/SparkExamples/resources/people.json"
+    val ds = sQLContext.read.json(path).as[Person]
+    ds.show()
 
   }
 
-  private def runInferSchemaExample(sQLContext: SQLContext):Unit={
+  private def runInferSchemaExample(sQLContext: SQLContext): Unit = {
 
     import sQLContext.implicits._
 
@@ -90,13 +90,13 @@ object SparkSQLExample {
     teenagersDF.map(teenager => teenager.getValuesMap[Any](List("name", "age"))).collect().foreach(println)
   }
 
-  private def runProgrammaticSchemaExample(sQLContext: SQLContext):Unit={
+  private def runProgrammaticSchemaExample(sQLContext: SQLContext): Unit = {
     import sQLContext.implicits._
-    val peopleRDD=sQLContext.sparkContext.textFile("file:///E:/github/SparkExamples/resources/people.txt")
-    val schemaString="name age"
+    val peopleRDD = sQLContext.sparkContext.textFile("file:///E:/github/SparkExamples/resources/people.txt")
+    val schemaString = "name age"
 
-    val fields=schemaString.split(" ").map(fieldName=>StructField(fieldName,StringType,nullable = true))
-    val schema=StructType(fields)
+    val fields = schemaString.split(" ").map(fieldName => StructField(fieldName, StringType, nullable = true))
+    val schema = StructType(fields)
 
     // Convert records of the RDD (people) to Rows
     val rowRDD = peopleRDD
@@ -111,7 +111,6 @@ object SparkSQLExample {
     val results = sQLContext.sql("SELECT name FROM people")
 
     results.map(attributes => "Name: " + attributes(0)).toDF().show()
-
   }
 
 }
