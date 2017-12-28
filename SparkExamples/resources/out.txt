@@ -1,0 +1,8 @@
+Counts at time 1514429580000 ms []
+Counts at time 1514429585000 ms []
+Counts at time 1514429590000 ms []
+Counts at time 1514429595000 ms []
+Counts at time 1514429600000 ms []
+Counts at time 1514429605000 ms [(d,3), (aa,2), (bb,1), (cc,1)]
+Counts at time 1514429610000 ms []
+Counts at time 1514429615000 ms []
