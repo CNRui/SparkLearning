@@ -15,8 +15,8 @@ object SparkSQLExample {
     val hc = new HiveContext(sc)
     val sqlc = new SQLContext(sc)
 
-    //runBasicDataFrameExample(hc)
-    runDatasetCreationExample(sqlc)
+    runBasicDataFrameExample(hc)
+    //runDatasetCreationExample(sqlc)
     //runInferSchemaExample(sqlc)
     //runProgrammaticSchemaExample(sqlc)
 
