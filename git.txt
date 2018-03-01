@@ -1,0 +1,29 @@
+git add .
+
+git commit -m "第几次提交"
+
+git push -u origin master
+
+//issue 处理
+
+git stash
+
+git pull --rebase origin master
+
+git push -u origin master
+
+
+git 执行git pull –rebase报错误如下： 
+
+error: Cannot pull with rebase: You have unstaged changes. 
+error: Additionally, your index contains uncommitted changes. 
+
+原因：如果有未提交的更改，是不能git pull的
+
+解决： 
+先执行git stash 
+再执行git pull –rebase 
+最后再执行git stash pop
+
+git stash #可用来暂存当前正在进行的工作 
+git stash pop #从Git栈中读取最近一次保存的内容
