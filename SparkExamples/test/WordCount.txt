@@ -1,2 +1,0 @@
-a b c d a a a bbb b b b cc
-d dd ee dd ss a vv bb c cc

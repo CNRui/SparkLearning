@@ -21,27 +21,26 @@ object SparkHiveExample {
     //   sql("CREATE TABLE IF NOT EXISTS test.src (key INT, value STRING)")
     //   sql("LOAD DATA LOCAL INPATH 'E:/github/SparkExamples/resources/kv1.txt' INTO TABLE test.src")
     sql("show databases").foreach(println)
-    //    sql("SELECT * FROM test.src").show()
-    //
-    //    sql("SELECT COUNT(*) FROM test.src").show()
-    //
-    //
-    //    val sqlDF = sql("SELECT key, value FROM test.src WHERE key < 10 ORDER BY key")
-    //
-    //
-    //
-    //    val stringsDS = sqlDF.map {
-    //      case Row(key: Int, value: String) => s"Key: $key, Value: $value"
-    //    }
-    //
-    //
-    //    stringsDS.toDF().show()
-    //
-    //    val recordsDF = hc.createDataFrame((1 to 100).map(i => Record(i, s"var_$i")))
-    //
-    //    recordsDF.registerTempTable("records")
-    //
-    //    sql("SELECT r.* FROM records r JOIN test.src s ON r.key = s.key").show()
+    sql("SELECT * FROM test.src").show()
+
+    sql("SELECT COUNT(*) FROM test.src").show()
+
+
+    val sqlDF = sql("SELECT key, value FROM test.src WHERE key < 10 ORDER BY key")
+
+
+    val stringsDS = sqlDF.map {
+      case Row(key: Int, value: String) => s"Key: $key, Value: $value"
+    }
+
+
+    stringsDS.toDF().show()
+
+    val recordsDF = hc.createDataFrame((1 to 100).map(i => Record(i, s"var_$i")))
+
+    recordsDF.registerTempTable("records")
+
+    sql("SELECT r.* FROM records r JOIN test.src s ON r.key = s.key").show()
 
 
     sc.stop()
